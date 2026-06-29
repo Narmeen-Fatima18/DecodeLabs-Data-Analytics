@@ -1,90 +1,92 @@
-# 📊 DecodeLabs Data Analytics Project 1
+# DecodeLabs Data Analytics Project 1
 
-## 🧾 Overview
+## Overview
 This project is part of the DecodeLabs Data Analytics Internship.
 
-The goal of this project was to clean and prepare a raw dataset using Microsoft Excel by identifying and fixing data quality issues.
+The objective of this project was to clean and prepare a raw dataset using Microsoft Excel by identifying and resolving various data quality issues.
 
 ---
 
-## 📁 Dataset
-- File Name: Dataset for Data Analytics.xlsx
-- Total Records: 1200 rows
-- The dataset contained issues such as:
-  - Missing values
-  - Incorrect date formats
-  - Floating point precision errors
-  - Data consistency checks
+## Dataset
+- File Name: Dataset for Data Analytics.xlsx  
+- Total Records: 1200 rows  
+
+The dataset contained the following issues:
+- Missing values  
+- Incorrect date formats  
+- Floating point precision errors  
+- Data consistency issues  
 
 ---
 
-## 🧹 Data Cleaning Steps
+## Data Cleaning Steps
 
-### ✅ CR001 — Missing Values
+### CR001 — Missing Values
 - Column: CouponCode  
 - Issue: 309 missing values  
-- Solution: Replaced with "N/A"
+- Action Taken: Replaced missing values with "N/A"  
 
 ---
 
-### ✅ CR002 — Date Format Fix
-- Issue: Dates were not in standard format  
-- Solution: Converted all dates to `YYYY-MM-DD` format
+### CR002 — Date Format Standardization
+- Issue: Dates were not in a consistent format  
+- Action Taken: Converted all dates to YYYY-MM-DD format  
 
 ---
 
-### ✅ CR003 — Floating Point Fix
+### CR003 — Floating Point Precision
 - Columns: UnitPrice, TotalPrice  
-- Issue: Values like 550.1799999  
-- Solution: Formatted to 2 decimal places
+- Issue: Values contained excessive decimal precision (e.g., 550.1799999)  
+- Action Taken: Formatted values to two decimal places  
 
 ---
 
-### ✅ CR004 — Duplicate Check
+### CR004 — Duplicate Check
 - Column: OrderID  
-- Result: No duplicate values found ✅
+- Result: No duplicate records found  
 
 ---
 
-### ✅ CR005 — Text Consistency
-- Checked columns:
-  - Product
-  - PaymentMethod
-  - OrderStatus
+### CR005 — Text Consistency
+- Columns Checked:
+  - Product  
+  - PaymentMethod  
+  - OrderStatus  
   - ReferralSource  
-- Result: No extra spaces or casing issues ✅
+
+- Result: No inconsistencies found (no extra spaces or casing issues)  
 
 ---
 
-## 📋 Change Log
-A separate **Change Log sheet** was created in Excel documenting all cleaning steps:
+## Change Log
+A separate "Change Log" sheet was created in Excel to document all data cleaning actions.
 
-| Change ID | Issue | Action |
-|----------|------|--------|
-| CR001 | Missing values | Filled with N/A |
-| CR002 | Date format | Standardized |
-| CR003 | Floating points | Rounded |
-| CR004 | Duplicates | Checked |
-| CR005 | Text issues | Verified |
-
----
-
-## ✅ Final Verification
-- ✔ 0% duplicate OrderIDs  
-- ✔ 0% incorrect date formats  
-- ✔ All changes documented  
+| Change ID | Issue              | Action Taken              |
+|----------|------------------|--------------------------|
+| CR001     | Missing values    | Filled with N/A          |
+| CR002     | Date format       | Standardized             |
+| CR003     | Floating points   | Formatted to 2 decimals  |
+| CR004     | Duplicates        | Checked                  |
+| CR005     | Text consistency  | Verified                 |
 
 ---
 
-## 🛠 Tools Used
-- Microsoft Excel
+## Final Verification
+- 0% duplicate OrderIDs  
+- 0% incorrect date formats  
+- All changes properly documented  
 
 ---
 
-## 🎯 Outcome
-A fully cleaned dataset ready for analysis and visualization.
+## Tools Used
+- Microsoft Excel  
 
 ---
 
-## 👤 Author
+## Outcome
+The dataset was successfully cleaned and is now ready for further analysis and visualization.
+
+---
+
+## Author
 Narmeen Fatima
